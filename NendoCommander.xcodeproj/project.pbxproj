@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB0F914D18E7CC59005C9C25 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB0F914C18E7CC59005C9C25 /* SettingsViewController.m */; };
+		AB0F915718E7CFAC005C9C25 /* codomocommander_app_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = AB0F915418E7CFAC005C9C25 /* codomocommander_app_bg.png */; };
+		AB0F915818E7CFAC005C9C25 /* codomocommander_app_btn_active.png in Resources */ = {isa = PBXBuildFile; fileRef = AB0F915518E7CFAC005C9C25 /* codomocommander_app_btn_active.png */; };
+		AB0F915918E7CFAC005C9C25 /* codomocommander_app_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = AB0F915618E7CFAC005C9C25 /* codomocommander_app_btn.png */; };
+		ABA63A5E18E7E4C900DEAEF9 /* codomocommander_app_comment_cloud.png in Resources */ = {isa = PBXBuildFile; fileRef = ABA63A5918E7E4C900DEAEF9 /* codomocommander_app_comment_cloud.png */; };
+		ABA63A5F18E7E4C900DEAEF9 /* codomocommander_app_comment_home.png in Resources */ = {isa = PBXBuildFile; fileRef = ABA63A5A18E7E4C900DEAEF9 /* codomocommander_app_comment_home.png */; };
+		ABA63A6018E7E4C900DEAEF9 /* codomocommander_app_comment_rain.png in Resources */ = {isa = PBXBuildFile; fileRef = ABA63A5B18E7E4C900DEAEF9 /* codomocommander_app_comment_rain.png */; };
+		ABA63A6118E7E4C900DEAEF9 /* codomocommander_app_comment_sunny.png in Resources */ = {isa = PBXBuildFile; fileRef = ABA63A5C18E7E4C900DEAEF9 /* codomocommander_app_comment_sunny.png */; };
+		ABA63A6218E7E4C900DEAEF9 /* codomocommander_app_comment_wait.png in Resources */ = {isa = PBXBuildFile; fileRef = ABA63A5D18E7E4C900DEAEF9 /* codomocommander_app_comment_wait.png */; };
+		ABA63A6418E7E52700DEAEF9 /* codomocommander_app_setting.png in Resources */ = {isa = PBXBuildFile; fileRef = ABA63A6318E7E52700DEAEF9 /* codomocommander_app_setting.png */; };
+		ABA63A6618E7EDAB00DEAEF9 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ABA63A6518E7EDAB00DEAEF9 /* Default-568h@2x.png */; };
+		ABA63A6818E7F15300DEAEF9 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ABA63A6718E7F15300DEAEF9 /* icon@2x.png */; };
 		ABFAA34918E69A5000271FA5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABFAA34818E69A5000271FA5 /* Foundation.framework */; };
 		ABFAA34B18E69A5000271FA5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABFAA34A18E69A5000271FA5 /* CoreGraphics.framework */; };
 		ABFAA34D18E69A5000271FA5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABFAA34C18E69A5000271FA5 /* UIKit.framework */; };
@@ -38,6 +50,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AB0F914B18E7CC59005C9C25 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		AB0F914C18E7CC59005C9C25 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		AB0F915418E7CFAC005C9C25 /* codomocommander_app_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = codomocommander_app_bg.png; sourceTree = "<group>"; };
+		AB0F915518E7CFAC005C9C25 /* codomocommander_app_btn_active.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = codomocommander_app_btn_active.png; sourceTree = "<group>"; };
+		AB0F915618E7CFAC005C9C25 /* codomocommander_app_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = codomocommander_app_btn.png; sourceTree = "<group>"; };
+		ABA63A5918E7E4C900DEAEF9 /* codomocommander_app_comment_cloud.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = codomocommander_app_comment_cloud.png; sourceTree = "<group>"; };
+		ABA63A5A18E7E4C900DEAEF9 /* codomocommander_app_comment_home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = codomocommander_app_comment_home.png; sourceTree = "<group>"; };
+		ABA63A5B18E7E4C900DEAEF9 /* codomocommander_app_comment_rain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = codomocommander_app_comment_rain.png; sourceTree = "<group>"; };
+		ABA63A5C18E7E4C900DEAEF9 /* codomocommander_app_comment_sunny.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = codomocommander_app_comment_sunny.png; sourceTree = "<group>"; };
+		ABA63A5D18E7E4C900DEAEF9 /* codomocommander_app_comment_wait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = codomocommander_app_comment_wait.png; sourceTree = "<group>"; };
+		ABA63A6318E7E52700DEAEF9 /* codomocommander_app_setting.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = codomocommander_app_setting.png; sourceTree = "<group>"; };
+		ABA63A6518E7EDAB00DEAEF9 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		ABA63A6718E7F15300DEAEF9 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
 		ABFAA34518E69A5000271FA5 /* NendoCommander.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NendoCommander.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABFAA34818E69A5000271FA5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		ABFAA34A18E69A5000271FA5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -132,8 +157,21 @@
 				ABFAA35A18E69A5000271FA5 /* Main.storyboard */,
 				ABFAA35D18E69A5000271FA5 /* ViewController.h */,
 				ABFAA35E18E69A5000271FA5 /* ViewController.m */,
+				AB0F914B18E7CC59005C9C25 /* SettingsViewController.h */,
+				AB0F914C18E7CC59005C9C25 /* SettingsViewController.m */,
 				ABFAA37D18E69F2300271FA5 /* VincluLed.h */,
 				ABFAA37E18E69F2300271FA5 /* VincluLed.m */,
+				ABA63A6518E7EDAB00DEAEF9 /* Default-568h@2x.png */,
+				ABA63A6718E7F15300DEAEF9 /* icon@2x.png */,
+				ABA63A5918E7E4C900DEAEF9 /* codomocommander_app_comment_cloud.png */,
+				ABA63A5A18E7E4C900DEAEF9 /* codomocommander_app_comment_home.png */,
+				ABA63A5B18E7E4C900DEAEF9 /* codomocommander_app_comment_rain.png */,
+				ABA63A5C18E7E4C900DEAEF9 /* codomocommander_app_comment_sunny.png */,
+				ABA63A5D18E7E4C900DEAEF9 /* codomocommander_app_comment_wait.png */,
+				ABA63A6318E7E52700DEAEF9 /* codomocommander_app_setting.png */,
+				AB0F915418E7CFAC005C9C25 /* codomocommander_app_bg.png */,
+				AB0F915518E7CFAC005C9C25 /* codomocommander_app_btn_active.png */,
+				AB0F915618E7CFAC005C9C25 /* codomocommander_app_btn.png */,
 				ABFAA36018E69A5000271FA5 /* Images.xcassets */,
 				ABFAA34F18E69A5000271FA5 /* Supporting Files */,
 			);
@@ -245,8 +283,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABA63A5F18E7E4C900DEAEF9 /* codomocommander_app_comment_home.png in Resources */,
+				ABA63A6118E7E4C900DEAEF9 /* codomocommander_app_comment_sunny.png in Resources */,
+				AB0F915818E7CFAC005C9C25 /* codomocommander_app_btn_active.png in Resources */,
 				ABFAA36118E69A5000271FA5 /* Images.xcassets in Resources */,
+				AB0F915718E7CFAC005C9C25 /* codomocommander_app_bg.png in Resources */,
+				AB0F915918E7CFAC005C9C25 /* codomocommander_app_btn.png in Resources */,
+				ABA63A6418E7E52700DEAEF9 /* codomocommander_app_setting.png in Resources */,
+				ABA63A6818E7F15300DEAEF9 /* icon@2x.png in Resources */,
+				ABA63A5E18E7E4C900DEAEF9 /* codomocommander_app_comment_cloud.png in Resources */,
+				ABA63A6018E7E4C900DEAEF9 /* codomocommander_app_comment_rain.png in Resources */,
+				ABA63A6618E7EDAB00DEAEF9 /* Default-568h@2x.png in Resources */,
 				ABFAA35318E69A5000271FA5 /* InfoPlist.strings in Resources */,
+				ABA63A6218E7E4C900DEAEF9 /* codomocommander_app_comment_wait.png in Resources */,
 				ABFAA35C18E69A5000271FA5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,6 +317,7 @@
 			files = (
 				ABFAA37F18E69F2300271FA5 /* VincluLed.m in Sources */,
 				ABFAA35F18E69A5000271FA5 /* ViewController.m in Sources */,
+				AB0F914D18E7CC59005C9C25 /* SettingsViewController.m in Sources */,
 				ABFAA35918E69A5000271FA5 /* AppDelegate.m in Sources */,
 				ABFAA35518E69A5000271FA5 /* main.m in Sources */,
 			);
@@ -474,6 +524,7 @@
 				ABFAA37918E69A5000271FA5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ABFAA37A18E69A5000271FA5 /* Build configuration list for PBXNativeTarget "NendoCommanderTests" */ = {
 			isa = XCConfigurationList;
@@ -482,6 +533,7 @@
 				ABFAA37C18E69A5000271FA5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

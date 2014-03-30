@@ -11,6 +11,7 @@
 
 @interface ViewController : UIViewController
 @property (weak, nonatomic) IBOutlet UILabel *colorLabel;
+@property (weak, nonatomic) IBOutlet UIImageView *commentImage;
 
 - (IBAction)clickReloadBtn:(id)sender;
 

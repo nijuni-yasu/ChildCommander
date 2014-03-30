@@ -10,6 +10,21 @@
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
+{
+    NSString *whiteText;
+    NSString *blackText;
+    NSString *blueText;
+    NSString *redText;
+    NSString *grennText;
+    
+}
+
+@property (nonatomic, retain) NSString *whiteText;
+@property (nonatomic, retain) NSString *blackText;
+@property (nonatomic, retain) NSString *blueText;
+@property (nonatomic, retain) NSString *redText;
+@property (nonatomic, retain) NSString *greenText;
+
 @property (strong, nonatomic) UIWindow *window;
 
 @end

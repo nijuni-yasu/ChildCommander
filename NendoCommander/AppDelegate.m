@@ -9,10 +9,21 @@
 #import "AppDelegate.h"
 
 @implementation AppDelegate
+@synthesize whiteText;
+@synthesize blackText;
+@synthesize blueText;
+@synthesize redText;
+@synthesize greenText;
+
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    self.whiteText = [[NSString alloc] init];
+    self.blackText = [[NSString alloc] init];
+    self.blueText = [[NSString alloc] init];
+    self.redText = [[NSString alloc] init];
+    self.greenText = [[NSString alloc] init];
     return YES;
 }
 							
