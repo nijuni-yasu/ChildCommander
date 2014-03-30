@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ABFAA34918E69A5000271FA5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABFAA34818E69A5000271FA5 /* Foundation.framework */; };
+		ABFAA34B18E69A5000271FA5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABFAA34A18E69A5000271FA5 /* CoreGraphics.framework */; };
+		ABFAA34D18E69A5000271FA5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABFAA34C18E69A5000271FA5 /* UIKit.framework */; };
+		ABFAA35318E69A5000271FA5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ABFAA35118E69A5000271FA5 /* InfoPlist.strings */; };
+		ABFAA35518E69A5000271FA5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ABFAA35418E69A5000271FA5 /* main.m */; };
+		ABFAA35918E69A5000271FA5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ABFAA35818E69A5000271FA5 /* AppDelegate.m */; };
+		ABFAA35C18E69A5000271FA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABFAA35A18E69A5000271FA5 /* Main.storyboard */; };
+		ABFAA35F18E69A5000271FA5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABFAA35E18E69A5000271FA5 /* ViewController.m */; };
+		ABFAA36118E69A5000271FA5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABFAA36018E69A5000271FA5 /* Images.xcassets */; };
+		ABFAA36818E69A5000271FA5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABFAA36718E69A5000271FA5 /* XCTest.framework */; };
+		ABFAA36918E69A5000271FA5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABFAA34818E69A5000271FA5 /* Foundation.framework */; };
+		ABFAA36A18E69A5000271FA5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABFAA34C18E69A5000271FA5 /* UIKit.framework */; };
+		ABFAA37218E69A5000271FA5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ABFAA37018E69A5000271FA5 /* InfoPlist.strings */; };
+		ABFAA37418E69A5000271FA5 /* NendoCommanderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABFAA37318E69A5000271FA5 /* NendoCommanderTests.m */; };
+		ABFAA37F18E69F2300271FA5 /* VincluLed.m in Sources */ = {isa = PBXBuildFile; fileRef = ABFAA37E18E69F2300271FA5 /* VincluLed.m */; };
+		ABFAA38118E6A35800271FA5 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABFAA38018E6A35800271FA5 /* CoreAudio.framework */; };
+		ABFAA38318E6A36100271FA5 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABFAA38218E6A36100271FA5 /* AudioToolbox.framework */; };
+		ABFAA38518E6A38700271FA5 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABFAA38418E6A38700271FA5 /* MediaPlayer.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ABFAA36B18E69A5000271FA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABFAA33D18E69A5000271FA5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABFAA34418E69A5000271FA5;
+			remoteInfo = NendoCommander;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ABFAA34518E69A5000271FA5 /* NendoCommander.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NendoCommander.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABFAA34818E69A5000271FA5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ABFAA34A18E69A5000271FA5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		ABFAA34C18E69A5000271FA5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		ABFAA35018E69A5000271FA5 /* NendoCommander-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NendoCommander-Info.plist"; sourceTree = "<group>"; };
+		ABFAA35218E69A5000271FA5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ABFAA35418E69A5000271FA5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ABFAA35618E69A5000271FA5 /* NendoCommander-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NendoCommander-Prefix.pch"; sourceTree = "<group>"; };
+		ABFAA35718E69A5000271FA5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ABFAA35818E69A5000271FA5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ABFAA35B18E69A5000271FA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ABFAA35D18E69A5000271FA5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ABFAA35E18E69A5000271FA5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ABFAA36018E69A5000271FA5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		ABFAA36618E69A5000271FA5 /* NendoCommanderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NendoCommanderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABFAA36718E69A5000271FA5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		ABFAA36F18E69A5000271FA5 /* NendoCommanderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NendoCommanderTests-Info.plist"; sourceTree = "<group>"; };
+		ABFAA37118E69A5000271FA5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ABFAA37318E69A5000271FA5 /* NendoCommanderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NendoCommanderTests.m; sourceTree = "<group>"; };
+		ABFAA37D18E69F2300271FA5 /* VincluLed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VincluLed.h; sourceTree = "<group>"; };
+		ABFAA37E18E69F2300271FA5 /* VincluLed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VincluLed.m; sourceTree = "<group>"; };
+		ABFAA38018E6A35800271FA5 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		ABFAA38218E6A36100271FA5 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		ABFAA38418E6A38700271FA5 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABFAA34218E69A5000271FA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABFAA38518E6A38700271FA5 /* MediaPlayer.framework in Frameworks */,
+				ABFAA38318E6A36100271FA5 /* AudioToolbox.framework in Frameworks */,
+				ABFAA38118E6A35800271FA5 /* CoreAudio.framework in Frameworks */,
+				ABFAA34B18E69A5000271FA5 /* CoreGraphics.framework in Frameworks */,
+				ABFAA34D18E69A5000271FA5 /* UIKit.framework in Frameworks */,
+				ABFAA34918E69A5000271FA5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABFAA36318E69A5000271FA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABFAA36818E69A5000271FA5 /* XCTest.framework in Frameworks */,
+				ABFAA36A18E69A5000271FA5 /* UIKit.framework in Frameworks */,
+				ABFAA36918E69A5000271FA5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ABFAA33C18E69A5000271FA5 = {
+			isa = PBXGroup;
+			children = (
+				ABFAA34E18E69A5000271FA5 /* NendoCommander */,
+				ABFAA36D18E69A5000271FA5 /* NendoCommanderTests */,
+				ABFAA34718E69A5000271FA5 /* Frameworks */,
+				ABFAA34618E69A5000271FA5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ABFAA34618E69A5000271FA5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABFAA34518E69A5000271FA5 /* NendoCommander.app */,
+				ABFAA36618E69A5000271FA5 /* NendoCommanderTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABFAA34718E69A5000271FA5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ABFAA38418E6A38700271FA5 /* MediaPlayer.framework */,
+				ABFAA38218E6A36100271FA5 /* AudioToolbox.framework */,
+				ABFAA38018E6A35800271FA5 /* CoreAudio.framework */,
+				ABFAA34818E69A5000271FA5 /* Foundation.framework */,
+				ABFAA34A18E69A5000271FA5 /* CoreGraphics.framework */,
+				ABFAA34C18E69A5000271FA5 /* UIKit.framework */,
+				ABFAA36718E69A5000271FA5 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ABFAA34E18E69A5000271FA5 /* NendoCommander */ = {
+			isa = PBXGroup;
+			children = (
+				ABFAA35718E69A5000271FA5 /* AppDelegate.h */,
+				ABFAA35818E69A5000271FA5 /* AppDelegate.m */,
+				ABFAA35A18E69A5000271FA5 /* Main.storyboard */,
+				ABFAA35D18E69A5000271FA5 /* ViewController.h */,
+				ABFAA35E18E69A5000271FA5 /* ViewController.m */,
+				ABFAA37D18E69F2300271FA5 /* VincluLed.h */,
+				ABFAA37E18E69F2300271FA5 /* VincluLed.m */,
+				ABFAA36018E69A5000271FA5 /* Images.xcassets */,
+				ABFAA34F18E69A5000271FA5 /* Supporting Files */,
+			);
+			path = NendoCommander;
+			sourceTree = "<group>";
+		};
+		ABFAA34F18E69A5000271FA5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ABFAA35018E69A5000271FA5 /* NendoCommander-Info.plist */,
+				ABFAA35118E69A5000271FA5 /* InfoPlist.strings */,
+				ABFAA35418E69A5000271FA5 /* main.m */,
+				ABFAA35618E69A5000271FA5 /* NendoCommander-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ABFAA36D18E69A5000271FA5 /* NendoCommanderTests */ = {
+			isa = PBXGroup;
+			children = (
+				ABFAA37318E69A5000271FA5 /* NendoCommanderTests.m */,
+				ABFAA36E18E69A5000271FA5 /* Supporting Files */,
+			);
+			path = NendoCommanderTests;
+			sourceTree = "<group>";
+		};
+		ABFAA36E18E69A5000271FA5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ABFAA36F18E69A5000271FA5 /* NendoCommanderTests-Info.plist */,
+				ABFAA37018E69A5000271FA5 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABFAA34418E69A5000271FA5 /* NendoCommander */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABFAA37718E69A5000271FA5 /* Build configuration list for PBXNativeTarget "NendoCommander" */;
+			buildPhases = (
+				ABFAA34118E69A5000271FA5 /* Sources */,
+				ABFAA34218E69A5000271FA5 /* Frameworks */,
+				ABFAA34318E69A5000271FA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NendoCommander;
+			productName = NendoCommander;
+			productReference = ABFAA34518E69A5000271FA5 /* NendoCommander.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ABFAA36518E69A5000271FA5 /* NendoCommanderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABFAA37A18E69A5000271FA5 /* Build configuration list for PBXNativeTarget "NendoCommanderTests" */;
+			buildPhases = (
+				ABFAA36218E69A5000271FA5 /* Sources */,
+				ABFAA36318E69A5000271FA5 /* Frameworks */,
+				ABFAA36418E69A5000271FA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABFAA36C18E69A5000271FA5 /* PBXTargetDependency */,
+			);
+			name = NendoCommanderTests;
+			productName = NendoCommanderTests;
+			productReference = ABFAA36618E69A5000271FA5 /* NendoCommanderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABFAA33D18E69A5000271FA5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Naohiro Yasukawa";
+				TargetAttributes = {
+					ABFAA36518E69A5000271FA5 = {
+						TestTargetID = ABFAA34418E69A5000271FA5;
+					};
+				};
+			};
+			buildConfigurationList = ABFAA34018E69A5000271FA5 /* Build configuration list for PBXProject "NendoCommander" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ABFAA33C18E69A5000271FA5;
+			productRefGroup = ABFAA34618E69A5000271FA5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABFAA34418E69A5000271FA5 /* NendoCommander */,
+				ABFAA36518E69A5000271FA5 /* NendoCommanderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABFAA34318E69A5000271FA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABFAA36118E69A5000271FA5 /* Images.xcassets in Resources */,
+				ABFAA35318E69A5000271FA5 /* InfoPlist.strings in Resources */,
+				ABFAA35C18E69A5000271FA5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABFAA36418E69A5000271FA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABFAA37218E69A5000271FA5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABFAA34118E69A5000271FA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABFAA37F18E69F2300271FA5 /* VincluLed.m in Sources */,
+				ABFAA35F18E69A5000271FA5 /* ViewController.m in Sources */,
+				ABFAA35918E69A5000271FA5 /* AppDelegate.m in Sources */,
+				ABFAA35518E69A5000271FA5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABFAA36218E69A5000271FA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABFAA37418E69A5000271FA5 /* NendoCommanderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ABFAA36C18E69A5000271FA5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABFAA34418E69A5000271FA5 /* NendoCommander */;
+			targetProxy = ABFAA36B18E69A5000271FA5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ABFAA35118E69A5000271FA5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABFAA35218E69A5000271FA5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		ABFAA35A18E69A5000271FA5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABFAA35B18E69A5000271FA5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ABFAA37018E69A5000271FA5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABFAA37118E69A5000271FA5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ABFAA37518E69A5000271FA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ABFAA37618E69A5000271FA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ABFAA37818E69A5000271FA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NendoCommander/NendoCommander-Prefix.pch";
+				INFOPLIST_FILE = "NendoCommander/NendoCommander-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		ABFAA37918E69A5000271FA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NendoCommander/NendoCommander-Prefix.pch";
+				INFOPLIST_FILE = "NendoCommander/NendoCommander-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		ABFAA37B18E69A5000271FA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NendoCommander.app/NendoCommander";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NendoCommander/NendoCommander-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "NendoCommanderTests/NendoCommanderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		ABFAA37C18E69A5000271FA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NendoCommander.app/NendoCommander";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NendoCommander/NendoCommander-Prefix.pch";
+				INFOPLIST_FILE = "NendoCommanderTests/NendoCommanderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABFAA34018E69A5000271FA5 /* Build configuration list for PBXProject "NendoCommander" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABFAA37518E69A5000271FA5 /* Debug */,
+				ABFAA37618E69A5000271FA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABFAA37718E69A5000271FA5 /* Build configuration list for PBXNativeTarget "NendoCommander" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABFAA37818E69A5000271FA5 /* Debug */,
+				ABFAA37918E69A5000271FA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ABFAA37A18E69A5000271FA5 /* Build configuration list for PBXNativeTarget "NendoCommanderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABFAA37B18E69A5000271FA5 /* Debug */,
+				ABFAA37C18E69A5000271FA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ABFAA33D18E69A5000271FA5 /* Project object */;
+}
